@@ -7,7 +7,7 @@ android {
     namespace = "com.mytest.mvvmTest"
     compileSdk = 33
 
-    viewBinding {
+    dataBinding{
         enable = true
     }
 
