@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JetpackComposeCloneCoding</string>
+    <string name="title_activity_nav">NavActivity</string>
+</resources>
