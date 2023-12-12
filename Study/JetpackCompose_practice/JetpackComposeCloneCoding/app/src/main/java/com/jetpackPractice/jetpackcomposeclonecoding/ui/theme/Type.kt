@@ -16,7 +16,7 @@ val fontFamily = FontFamily(
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
-        fontFamily = fontFamily,
+        fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
@@ -38,6 +38,13 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     )
     */
+)
+
+val TitleBarStyle = TextStyle(
+    fontSize = 22.sp,
+    fontWeight = FontWeight(700),
+    letterSpacing = 0.5.sp,
+    fontFamily = fontFamily
 )
 
 val HeadingStyle = TextStyle(
