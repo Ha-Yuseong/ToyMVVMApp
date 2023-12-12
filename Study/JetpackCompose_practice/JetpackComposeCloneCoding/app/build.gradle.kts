@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jetpackPractice.jetpackcomposeclonecoding"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -64,6 +64,7 @@ dependencies {
     // 내가 넣은거
     implementation ("androidx.compose.runtime:runtime-livedata:1.5.4")
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation("androidx.compose.ui:ui-util:1.5.4")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
