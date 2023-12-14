@@ -1,5 +1,5 @@
 # ToyMVVMApp
-### MVVM, Corutin 학습용 부산 공연 스케쥴 확인 앱
+### MVVM, Corutin, Jetpack Compose 학습용 앱
 
 해당 프로젝트는 Kotlin 안드로이드 개발 학습을 목표로 만든 매우 단순한 토이 프로젝트입니다.
 
